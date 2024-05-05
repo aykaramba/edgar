@@ -48,7 +48,7 @@ d) Accessible via: http://localhost:8080
 
 2) Using Emacs:
 
-a) SPECIAL NOTE:  I created a component for the LEM editor as part of the Edgar project to reload the CLOG instance running in the browser using C-v.  This does not work in Emacs and did not create cross-editor compatability for this component because it really should be removed from EDGAR and into LEM it self.  If you load EDGAR in Emacs, it will complain, just accept the error and it will start and work normally minus the C-v shortcut.  
+a) SPECIAL NOTE:  I created a component for the LEM editor as part of the Edgar project to reload the CLOG instance running in the browser using C-v.  This does not work in Emacs as I did not create cross-editor compatability for this component.  It really should be removed from EDGAR and into LEM it self.  If you load EDGAR in Emacs, the compiler will complain, just accept the error and it will start and work normally minus the C-v shortcut.  
 b) M-x start-slime or M-x start-sly   
 c) In repl: (ql:quickload :edgar)  
 d) In repl: (edgar:start-app)   
