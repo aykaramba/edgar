@@ -12,6 +12,23 @@ This project is also inspired by:
 
 2) The Common Lisp tutorials provided by the creator of CLOG, <a href="https://github.com/rabbibotton/clog/blob/main/LEARN.md" target="_blank">David Botton</a>.  
 
+** INSTALLATION **
+
+1) Git clone the repo to your ~/quicklisp/local-projects or ~/common list folders.  
+
+2) Using the LEM editor:  
+a) M-x start-lisp-repl  
+b) In repl: (ql:quickload :edgar)  
+c) In repl: (edgar:start-app)  
+
+3) Using Emacs:
+
+a) SPECIAL NOTE:  I created a component for the LEM editor as part of the Edgar project to reload the CLOG instance running in the browser using C-v.  This does not work in Emacs and did not create cross-editor compatability for this component because it really should be removed from EDGAR and into LEM it self.  If you load EDGAR in Emacs, it will complain, just accept the error and it will start and work normally minus the C-v shortcut.  
+b) M-x start-slime or M-x start-sly   
+c) In repl: (ql:quickload :edgar)  
+d) In repl: (edgar:start-app)   
+e) Ignore the compiler complaint and continue.  
+
 **Key design goeals and features:**
 
 * The application is discovered, not engineered.  I am learning programming, I wanted to explore instead of engineer what is possible.
