@@ -1,0 +1,107 @@
+
+**DEVELOPMENT NOTES**  
+
+;; ====[ **v.0.4** ]=============================  
+;; **Release date:** todo  
+
+**Todo:** Restricted access, user accounts  
+
+<br \>
+  
+;; ====[ **v.0.3** ]=============================  
+;; **Release date:** todo
+   
+**Todo:** Download and store earnings per share (EPS) per company.
+
+**Todo:** Generate graph of EPS variability per company.
+
+**Todo:** Simple search feature.
+
+**Todo:** Delete datasets.
+
+**Todo:** Add home button, reposition the reload button.
+
+**Todo:** Make the app layout responsive.
+  
+<br \>
+    
+;; ====[ **v.0.2** ]=============================  
+;; **Release date:** 2025-05-04
+  
+**Done:** Download - download edgar dex data and store ticker, company and cik numbers in db.
+
+**Done:** Display - Display list / history of Edgar downloads.
+
+**Done:** Click on Edgar list, return paginated view, users can click on pages to see lists of companies.
+
+**2024-05-04-v1** - Added on load check to see if we have any database entries.  If no database, display notification.
+  
+**2024-05-03-v1** - Added a db import check to the Reload button to prevent the "database is locked" error.  
+
+**2024-05-01-v1** - All key features of v.0.2 are complete.  This is a backup just before cleanup starts to make it look nice.  
+
+**2024-04-30-v2** - Everything is basically working, except the db-table-latest query, need to fix that + functions.
+
+**2024-04-30-v1** - Backup of working instance, just in case.  
+
+**2024-04-29-v3** - Added data json file save, list of lists file save, create table, import hashtable into correct db table.
+
+**2024-04-29-v2** - Added basic email checking, working form, working if then logic.
+
+**2024-04-29-v1** - Added "create table" sql query, i need to now download data and import it into the new table. 
+ 
+**2024-04-28-v1** - Started the building of the downloads page.
+
+**2024-04-27-v1** - Set the number pagination submenu to fixed width and aligned to center with flexbox.  
+
+**2024-04-21-v1** - Moved the display of variable values to a popup.  Leaving notifications on main ui, will use that instead of popup notifications.  
+
+**2024-04-21-v5** - White, cleaned up version of of the app, ready for adding downloads, displaying list of downloads features.  
+
+**2024-04-21-v4** - Pseudo pop-ups are working but cannot get variables and notifications in just yet.  Tar before cleanup. 
+ 
+**2024-04-21-v3** - Removed giant notifications setf that was unnecessary. Need to setup floating window for notifications / vars and then on to clean up the test code.  
+
+**2024-04-21-v2** - Letter ui pagination and button ui pagination visual state representation is done now. Tar before cleanup of tests causes damage. 
+ 
+**2024-04-21-v1** - Working on redoing button pagination to include visual state representation.  Final tar before fiddling causes damage.  
+
+**2024-04-20-v1** - Letter ui pagination state working, need to add number ui pagination state now.  
+
+**2024-04-19-v1** - Fully working queries, pagination and subqueries. Need to: add ui state checking.  
+
+**2024-04-18-v1** - Letter sort, page sort and results per page seem to work now. Just need visual letter and number indicators.  
+
+**2024-04-16-v2** - Pagination fully works and is checked as correct. Last page being empty needs to be debugged.  Buttons need state.  
+
+**2024-04-16-v1** - Another refactoring of functions, this is a backup before refactoring starts.  
+
+**2024-04-15-v2** - Slightly cleaned up version with a working submenu.  This version requires rework of the of the query function, it is too primitive currently.  
+
+**2024-04-15-v1** - First set of subqueries are working but not checked for accuracy.  Need to work through layout issues first, then check accuracy. 
+  
+**2024-04-15-v1** - Taking a backup just in case.  
+
+**2024-04-14-v1** - Per letter sorting works, sorting by number per page works, pagination buttons render out but they do not have a proper query attached yet.  
+
+**2024-04-14-v1** - This is a backup before further hacking happens so that I can roll back to a working state.  
+
+<br \>
+
+;; ====[ **v.0.1** ]=============================  
+;; **Release date:** 2024/04/01  
+  
+**Done:** Download - download edgar dex data and store in hash table  
+
+**Done:** Refresh - refresh page  
+
+**Done:** Reload - reload page with C-v bindings for Lem and Emacs  
+
+**Done:** Clear - clear the hash table  
+
+**Done:** Danger functions that waste edgar resources - print dex (download dex data and print it, print json (download dex data and print json version of dex data)  
+
+**Done:** CMPNY - hash table <-- Print hash table  
+
+**Done:** CMPNY - cdr hashtable <-- Print human readable ticker, company and cik numbers in human readable formant, one line per company  
+ 
