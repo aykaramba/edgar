@@ -10,7 +10,8 @@ This project is also inspired by:
 
 1) This Common Lisp course I am taking on Udemy by  <a href="https://www.udemy.com/course/common-lisp-programming/" target="_blank">Vincent Dardel</a>.  
 
-2) The Common Lisp tutorials provided by the creator of CLOG, <a href="https://github.com/rabbibotton/clog/blob/main/LEARN.md" target="_blank">David Botton</a>.  
+2) The Common Lisp tutorials provided by the creator of CLOG, <a href="https://github.com/rabbibotton/clog/blob/main/LEARN.md" target="_blank">David Botton</a>.
+
 
 **SCREENSHOTS**
 
@@ -25,11 +26,13 @@ This project is also inspired by:
 
 
 3) Download view of datasets - No usual sort / delete features, just a simple display of datasets in the db, dates, table name, local file copies, etc.:
-![Screenshot 2024-05-05 at 03-38-00 Screenshot](https://github.com/aykaramba/edgar/assets/16431651/8f40a884-3157-4b5e-ad61-e47495314d69)
+![03](https://github.com/aykaramba/edgar/assets/16431651/a36be90d-8dba-4f1d-bf53-1f575151df93)
+
 
 
 4) Help view - The view is dynamically created from two text files using the cl-markdown library:
-![Screenshot 2024-05-05 at 03-38-11 Screenshot](https://github.com/aykaramba/edgar/assets/16431651/4e582888-dffc-4e56-9e9d-14aff71516c2)
+![04](https://github.com/aykaramba/edgar/assets/16431651/977652ba-c7d8-4c3f-aced-a0f9654cc00c)
+
 
 
 
