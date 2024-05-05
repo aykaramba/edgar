@@ -45,7 +45,7 @@ I used the <a href="https://github.com/lem-project/lem" target="_blank">LEM</a> 
 
 I have also developed an indentation style that I call "chopshop" designed to let me use the core Paredit functionality to copy / paste forms around the program with ease and let me visualize the hierarchical structure of the code in a way that the standard Common Lisp coding style does not allow.  I have discovered that I can also use this indentation style with languages that use infix notation in order to make them easier to understand and visualize.  When I started learning Lisp, I found it extremely difficult to see where one form ended and another began.  Eventually I just had to give up on the default indentation style becuase it was virtually impenetrable visually. Instead, the "chopshop" approach to let me chop + paste bits of code around has made the whole process of programming fun and aboslutely interesting.  I have to confess that this has been my first programming experience that I actually enjoyed, and I looked forward to every day that I could get into the code, mess about and make stuff happen.  Of course, CLOG and LEM are majour components of that feedback loop and the tasteful selection of W3.CSS as the css framework for CLOG makes the whole experiencet that much more fun to explore.
 
-** Is there a future for EDGAR? **  
+**Is there a future for EDGAR?**  
 
 My initial goal with EDGAR is to learn to program by creating a user interface for MURO's 3 tutorials, this is done.  The next step is to add some of the following functionality:
 
