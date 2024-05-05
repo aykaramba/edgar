@@ -12,6 +12,27 @@ This project is also inspired by:
 
 2) The Common Lisp tutorials provided by the creator of CLOG, <a href="https://github.com/rabbibotton/clog/blob/main/LEARN.md" target="_blank">David Botton</a>.  
 
+**SCREENSHOTS**
+
+1) Paginated view of companies - Category C - Page 57:
+![01](https://github.com/aykaramba/edgar/assets/16431651/eb5df31e-0721-40a6-9222-b54b21826feb)
+
+  
+
+2) Paginated view of companies - Category C - Page 27 - With notifications popup to check variable values:
+![02](https://github.com/aykaramba/edgar/assets/16431651/5686cc5d-3802-4dfa-93c2-90ca28c6b8b5)
+
+
+
+3) Download view of datasets - No usual sort / delete features, just a simple display of datasets in the db, dates, table name, local file copies, etc.:
+![Screenshot 2024-05-05 at 03-38-00 Screenshot](https://github.com/aykaramba/edgar/assets/16431651/8f40a884-3157-4b5e-ad61-e47495314d69)
+
+
+4) Help view - The view is dynamically created from two text files using the cl-markdown library:
+![Screenshot 2024-05-05 at 03-38-11 Screenshot](https://github.com/aykaramba/edgar/assets/16431651/4e582888-dffc-4e56-9e9d-14aff71516c2)
+
+
+
 **INSTALLATION**
 
 1) Git clone the repo to your ~/quicklisp/local-projects or ~/common list folders.  
