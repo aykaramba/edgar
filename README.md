@@ -43,7 +43,7 @@ This project is also inspired by:
 2) Using the LEM editor:  
 a) M-x start-lisp-repl  
 b) In repl: (ql:quickload :edgar)  
-c) In repl: (edgar:start-app)
+c) In repl: (edgar:start-app)  
 d) Accessible via: http://localhost:8080  
 
 2) Using Emacs:
