@@ -12,7 +12,7 @@ This project is also inspired by:
 
 2) The Common Lisp tutorials provided by the creator of CLOG, <a href="https://github.com/rabbibotton/clog/blob/main/LEARN.md" target="_blank">David Botton</a>.  
 
-** INSTALLATION **
+**INSTALLATION**
 
 1) Git clone the repo to your ~/quicklisp/local-projects or ~/common list folders.  
 
